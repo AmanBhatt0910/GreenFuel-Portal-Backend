@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost:4000', '127.0.0.1', '192.168.1.3', 'api.sugamgreenfuel.in', 'www.api.sugamgreenfuel.in', 'http://sugamgreenfuel.in', 'http://sugamgreenfuel.in']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.1.3', 'sugamgreenfuel.in', 'www.sugamgreenfuel.in', 'api.sugamgreenfuel.in', 'www.api.sugamgreenfuel.in', 'api.localhost']
 
 # Application definition
 
